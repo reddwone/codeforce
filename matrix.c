@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdlib.h>
 int main()
 {
     int n;
@@ -28,6 +29,6 @@ int main()
         }
     }
     int x = 0;
-    x = sum1 - sum2;
-    printf("%d", x);
+    x = abs(sum1 - sum2);
+    printf("%d\n", x);
 }
