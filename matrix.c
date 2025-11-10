@@ -22,7 +22,7 @@ int main()
             {
                 sum1 += arry[i][j];
             }
-            else if (i + j == n-1)
+            if (i + j == n - 1)
             {
                 sum2 += arry[i][j];
             }
